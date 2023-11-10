@@ -177,20 +177,24 @@ algoritmo "IMCenter"
     escreval("                                --------------------------------")
     imc <- (peso/(altura^2))
 
-    escolha (imc)
-    caso ( imc <= 18.5 )
+    se (imc <= 18.5) entao
       situacao <- ("Abaixo do Peso!")
-    caso ((imc >= 18.6) ou (imc <= 24.9))
+    fimse
+    se ((imc >= 18.6) ou (imc <= 24.9)) entao
       situacao <- ("Peso Ideal!")
-    caso ((imc > 24.9) ou (imc < 30))
+    fimse
+    se ((imc > 24.9) ou (imc < 30)) entao
       situacao <- ("Sobrepeso!")
-    caso ((imc >= 30 ) ou (imc < 35))
+    fimse
+    se ((imc >= 30 ) ou (imc < 35)) entao
       situacao <- ("Obesidade Nível 31")
-    caso ((imc >= 35) ou (imc <= 40))
+    fimse
+    se ((imc >= 35) ou (imc <= 40)) entao
       situacao <- ("Obesidade Nível 21")
-    outro caso
+    fimse
+    se (imc > 40) entao
       situacao <- ("Obesidade Morbida!!")
-    fimescolha
+    fimse
 
     escreval("                                              ██")
     escreval("")
@@ -253,7 +257,7 @@ algoritmo "IMCenter"
     escreval("                                ||                             |")
     escreval("                                ||                              |")
     escreval("                                ||                             |")
-    escreval("                                ||   IMC: "+ imc+"    |")
+    escreval("                                ||   IMC: "+ imc +"    |")
     escreval("                                ||   Situação: "+ situacao +"      |")
     escreval("                                ||                       -------|")
     escreval("                                --------------------------------")
