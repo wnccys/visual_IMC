@@ -2,9 +2,11 @@ algoritmo "IMCenter"
 
     var
     peso, altura, imc :real
-    nome, situacao :caracter
+    nome, situacao, template :caracter
+    x :inteiro
 
     inicio
+    template <- "<><><><><><><><><><><><><><><><"
     escreva("                                         
                                                         __
                                                       _____
@@ -36,11 +38,13 @@ algoritmo "IMCenter"
 
     escreval("                   Essa é a IMCenter, sua consulta particular de IMC!")
     escreval("                   Informe seu nome para que possamos buscar seu registro em nosso banco:")
-    leia(nome)
+    // leia(nome)
+    nome <- "tester"
     escreval("                   Bem Vindo " + nome + "!")
     escreval("                   Para começarmos precisaremos da sua Altura e de seu Peso.")
-    escreval("                   Informe seu Altura: Ex. 1.86")
-    leia(altura)
+    escreval("                   Informe seu Altura (cm): Ex. 1.86")
+    // leia(altura)
+    altura <- 1.85
     // limpa a tela pq o limpatela() nao funciona
     escreval("                                              ██")
     escreval("")
@@ -108,8 +112,9 @@ algoritmo "IMCenter"
     escreval("                                ||                       -------|")
     escreval("                                --------------------------------")
     escreval("")
-    escreval("                   Agora precisaremos de seu Peso: Ex. 84")
-    leia(peso)
+    escreval("                   Agora precisaremos de seu Peso (Kg): Ex. 84")
+    // leia(peso)
+    peso <- 84
     escreval("                                              ██")
     escreval("")
     escreval("                                              ██")
@@ -187,10 +192,10 @@ algoritmo "IMCenter"
       situacao <- ("Sobrepeso!")
     fimse
     se ((imc >= 30 ) ou (imc < 35)) entao
-      situacao <- ("Obesidade Nível 31")
+      situacao <- ("Obesidade Nível 1")
     fimse
     se ((imc >= 35) ou (imc <= 40)) entao
-      situacao <- ("Obesidade Nível 21")
+      situacao <- ("Obesidade Nível 2")
     fimse
     se (imc > 40) entao
       situacao <- ("Obesidade Morbida!!")
@@ -240,26 +245,45 @@ algoritmo "IMCenter"
     escreval("")
     escreval("                                              ██")
 
-    escreval("                                --------------------------------")
+    escreval("                                ---------------------------------")
     escreval("                                --      REGISTRO IMCENTER       |")
-    escreval("                                ||                             |")
+    escreval("                                ||                               |")
     escreval("                                ||                              |")
-    escreval("                                ||   Nome: "+ nome + "             |")
-    escreval("                                ||                             |")
-    escreval("                                ||   Peso: "+ peso + "                   |")
-    escreval("                                ||                             |")
-    escreval("                                ||   Altura: "+ altura + "             |")
+    escreva("                                ||   Nome: "+ nome)
+    para x <- compr(nome) ate 21 passo 1 faca
+      escreva (" ")
+    fimpara
+    escreval("|")
     escreval("                                ||                              |")
-    escreval("                                ||                             |")
+    escreva("                                ||   Peso: "+ peso)
+    para x <- compr(numpcarac(peso)) ate 21 passo 1 faca
+      escreva (" ")
+    fimpara
+    escreval("|")
     escreval("                                ||                              |")
-    escreval("                                ||                             |")
+    escreva("                                ||   Altura: "+ altura)
+    para x <- compr(numpcarac(altura)) ate 19 passo 1 faca
+      escreva (" ")
+    fimpara
+    escreval("|")
     escreval("                                ||                              |")
-    escreval("                                ||                             |")
+    escreval("                                ||                               |")
     escreval("                                ||                              |")
-    escreval("                                ||                             |")
-    escreval("                                ||   IMC: "+ imc +"    |")
-    escreval("                                ||   Situação: "+ situacao +"      |")
+    escreval("                                ||                               |")
+    escreval("                                ||                              |")
+    escreval("                                ||                               |")
+    escreval("                                ||                              |")
+    escreval("                                ||                               |")
+    escreva("                                ||   IMC: "+ imc)
+    para x <- compr(numpcarac(imc)) ate 21 passo 1 faca
+      escreva (" ")
+    fimpara
+    escreval("|")
+    escreva("                                ||   Situação: "+ situacao)
+    para x <- compr(situacao) ate 17 passo 1 faca
+      escreva (" ")
+    fimpara
+    escreval("|")
     escreval("                                ||                       -------|")
     escreval("                                --------------------------------")
-
 fimalgoritmo

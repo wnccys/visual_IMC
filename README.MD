@@ -16,4 +16,8 @@ que eu ate prefiro pro dar mais informaçoes mesmo nao colocando nenhum ponto de
 
 ![debug console](image-2.png) que pode ser aberto com Ctrl + ` no VSCode; tem um site bem daora que tem uns temas q eu acho interessante mostrar tb https://vscodethemes.com/;
 
-outro ponto eh q eu tive um problema com a execuçao ja q ficava aparecendo um erro de objeto que era justamente a funçao de limpartela que no console de debug aparentemente nao funciona, tirei, parou;
+outro ponto eh q eu tive um problema com a execuçao ja q ficava aparecendo um erro de objeto que era justamente a funçao de limpartela que no console de debug aparentemente nao funciona;
+
+se tem uma coisa que deixa qualquer um louco eh como o visualG lida com tipos, por ser fortemente tipada, tranformar numeros em strings faz qualquer um questionar a realidade; nesse caso a solucao foi transformar numero pra caracter e castar a funcao compr pra pegar o comprimento, entao enquanto o comprimento nao for o da folha, ele coloca espaços em branco, completando no final a folha com um |, a folha fico parecendo que ta picotada na ponta pq o debug console junta linhas iguais, entao a folha ficaria parecendo um bilhete; depois ficou facil, copiei a funçao e adaptei pra cada variavel, ve oq ce fez funcionando eh mt pica;
+
+demorei umas 6/7 horas pra finalizar o projeto todo e sobre essa experiencia apenas digo que o visualg levou mais uma vitima a beira da LOUCURA;
