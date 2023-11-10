@@ -18,7 +18,8 @@ que eu ate prefiro pro dar mais informaçoes mesmo nao colocando nenhum ponto de
 
 outro ponto eh q eu tive um problema com a execuçao ja q ficava aparecendo um erro de objeto que era justamente a funçao de limpartela que no console de debug aparentemente nao funciona;
 
-se tem uma coisa que deixa qualquer um louco eh como o visualG lida com tipos, por ser fortemente tipada, tranformar numeros em strings faz qualquer um questionar a realidade; nesse caso a solucao foi transformar numero pra caracter e castar a funcao compr pra pegar o comprimento, entao enquanto o comprimento nao for o da folha, ele coloca espaços em branco, completando no final a folha com um |, a folha fico parecendo que ta picotada na ponta pq o debug console junta linhas iguais, entao a folha ficaria parecendo um bilhete; depois ficou facil, copiei a funçao e adaptei pra cada variavel, ve oq ce fez funcionando eh mt pica; ![relatório](image-3.png)
+se tem uma coisa que deixa qualquer um louco eh como o visualG lida com tipos, por ser fortemente tipada, tranformar numeros em strings faz qualquer um questionar a realidade; nesse caso a solucao foi transformar numero pra caracter e castar a funcao compr pra pegar o comprimento, entao enquanto o comprimento nao for o da folha, ele coloca espaços em branco, completando no final a folha com um |, a folha fico parecendo que ta picotada na ponta pq o debug console junta linhas iguais, entao a folha ficaria parecendo um bilhete; depois ficou facil, copiei a funçao e adaptei pra cada variavel, ve oq ce fez funcionando eh mt pica; 
+![relatório](image-3.png)
 
 no final so adaptei a condicional do IMC pra ficar certinho e adicionar a recomendação;
 
