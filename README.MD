@@ -1,4 +1,4 @@
-# **CALCULO IMC PROFESSOR CALVO HENRIQUE (NAO SE ABALE ESSE EH O DESTINO DE TODOS DE TI)**
+# **CALCULO IMC PROFESSOR CALVO HENRIQUE (NAO SE ABALE ESSE EH O DESTINO DE TODOS)**
 
 esse README existe pq eu curto documentar oq eu faço principalmente pra discutir com outras pessoas entao a linguagem fica bem informal pq esse eh o jeito que eu gosto de falar, ou seja, eh mais pra colocar oq ta na cabeça mais rápido entao fica a vontade pra ler sem muito compromisso;
 
