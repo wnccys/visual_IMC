@@ -14,6 +14,6 @@ ela permite compilar codigo do visualg, com todas as ferramentas do VSCode, dess
 
 que eu ate prefiro pro dar mais informaçoes mesmo nao colocando nenhum ponto de parada no programa; a execuçao do programa fica aqui:
 
-![debug console](image-2.png) que pode ser aberto com Ctrl + ` no VsCode; tem um site bem daora que tem uns temas q eu acho interessante mostrar tb https://vscodethemes.com/;
+![debug console](image-2.png) que pode ser aberto com Ctrl + ` no VSCode; tem um site bem daora que tem uns temas q eu acho interessante mostrar tb https://vscodethemes.com/;
 
 outro ponto eh q eu tive um problemao com a execuçao ja q ficava aparecendo um erro de objeto que era justamente a funçao de limpartela() que no console de debug aparentemente, tirei, parou;
