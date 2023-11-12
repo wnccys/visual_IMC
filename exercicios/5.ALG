@@ -15,8 +15,6 @@ var
         delta, x1, x2 :real
     inicio
         delta <- ((b^2)-4*a*c)
-        escreval(delta)
-        escreval(raizq(64))
         se (a = 0) entao
             escreval ("Não é uma função do 2 grau.")
         senao
