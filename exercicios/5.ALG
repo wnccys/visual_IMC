@@ -6,7 +6,7 @@ algoritmo "raizQuadrada"
 // valor de a for igual a zero.
 // basicamente isso;
 // esse algoritmo nao usa estruturas de repetiçao (nao vejo necessidade), invez disso usei uma função,
-// mas eu gostei bastante do desafio de enunciado e resolvi deixar aqui;
+// mas eu gostei bastante do desafio do enunciado e resolvi deixar aqui;
 var
     a, b, c :inteiro
 
