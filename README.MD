@@ -1,6 +1,6 @@
 # **CALCULO IMC PROFESSOR CALVO HENRIQUE (NAO SE ABALE ESSE EH O DESTINO DE TODOS)**
 
-esse README existe pq eu curto documentar oq eu faço principalmente pra discutir com outras pessoas entao a linguagem fica bem informal pq esse eh o jeito que eu gosto de falar, ou seja, eh mais pra colocar oq ta na cabeça mais rápido entao fica a vontade pra ler sem muito compromisso;
+esse README existe pq eu curto documentar oq eu faço principalmente pra discutir com outras pessoas entao a linguagem fica bem informal pq esse eh o jeito que eu gosto de falar, ou seja, eh mais pra colocar oq ta na cabeça o mais rápido possível entao fica a vontade pra ler sem muito compromisso;
 
 inicialmente eu tive a ideia de criar uma organizaçao médica fictícia q nao existe obviamente, mas acontece que existem umas 235 com o mesmo nome mas mesmo assim eu curti mt e acabei deixando com um destaque especial da ASSISTENCIA DE CELULARES IMCENTER DA ITALIA mo nada a ve
 https://www.instagram.com/im.center/
