@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "somaTodos"
 // o algoritmo era para imprimir todos os números de 1 á 100 e a soma entre eles,
 // mas deixei pro usuário, denovo, escolher o limite desejado;
 var
