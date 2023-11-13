@@ -12,7 +12,7 @@ https://marketplace.visualstudio.com/items?itemName=designliquido.designliquido-
 
 ela permite interpretar codigo do visualg >> com todas as ferramentas do VSCode << , desse jeito o desenvolvimento dos projetos ficam MUITO mais facil, inclusive acho bacana apresentar isso pro resto dos alunos, ja que o VsCode permite temas dos mais diversos tipos inclusive com highlight das principais funçoes, igualzinho o visualg mesmo so que mt mais foda (https://prnt.sc/TsMdN-YBbl33) INCLUSIVE ja tem uma ferramenta de debug imbutida, oq tambem acho interessante mostrar pros novos alunos ja que permite eles analizarem o codigo com mais calma e já mostrando os comando disponíveis como montar a estrutura basica de um algoritmo (algoritmo, var, inicio) automaticamente ate eu posso mostrar tb suave coisa simples mesmo papo de colocar uma parada (um stop) no programa pra eles analizarem como ta; alem disso ja deixa os alunos acostumados com o layout do programa entao fica a ideia; pra executar os codigos tem 2 jeitos o comando run (sem debug): ![run sem debug](image.png) e o comando run com debug: ![run com debug](image-1.png) 
 
-que eu ate prefiro pro dar mais informaçoes mesmo nao colocando nenhum ponto de parada no programa; a execuçao do programa fica aqui:
+que eu ate prefiro por dar mais informaçoes mesmo nao colocando nenhum ponto de parada no programa; a execuçao do programa fica aqui:
 
 ![debug console](image-2.png) que pode ser aberto com Ctrl + ` no VSCode; tem um site bem daora que tem uns temas q eu acho interessante mostrar tb https://vscodethemes.com/;
 
